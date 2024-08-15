@@ -29,7 +29,7 @@
               <div class="uk-navbar-right hidden lg:block  ">
                   <ul class="uk-navbar-nav flex gap-16 ">
                       <li class="[&>a.router-link-active]:" v-for="link in Links" :key="link.name">
-                          <NuxtLink :to="link.path" class=" text-white font-bold  relative group cursor-pointer "
+                          <NuxtLink :to="link.path" class=" text-white font-bold hover:text-gray-400  relative group cursor-pointer "
                           >   
                               {{link.name}}
                               <div
